@@ -1,0 +1,21 @@
+{
+    "name": "boot2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "calliope_l298_motors": "github:callitgs3/calliope_l298_motors#a550cc4273e9427eb02c3d467ff0376980b34388"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
